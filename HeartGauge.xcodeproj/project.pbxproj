@@ -13,6 +13,7 @@
 		F493901F2CF0FFD300D963EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F493901D2CF0FFD300D963EB /* Main.storyboard */; };
 		F49390212CF0FFD700D963EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49390202CF0FFD700D963EB /* Assets.xcassets */; };
 		F49390242CF0FFD700D963EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49390222CF0FFD700D963EB /* LaunchScreen.storyboard */; };
+		F493902C2CF1076D00D963EB /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F493902B2CF1076D00D963EB /* LaunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F49390202CF0FFD700D963EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F49390232CF0FFD700D963EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49390252CF0FFD700D963EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F493902B2CF1076D00D963EB /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				F493901D2CF0FFD300D963EB /* Main.storyboard */,
 				F49390202CF0FFD700D963EB /* Assets.xcassets */,
 				F49390222CF0FFD700D963EB /* LaunchScreen.storyboard */,
+				F493902B2CF1076D00D963EB /* LaunchViewController.swift */,
 				F49390252CF0FFD700D963EB /* Info.plist */,
 			);
 			path = HeartGauge;
@@ -141,6 +144,7 @@
 				F493901C2CF0FFD300D963EB /* ViewController.swift in Sources */,
 				F49390182CF0FFD300D963EB /* AppDelegate.swift in Sources */,
 				F493901A2CF0FFD300D963EB /* SceneDelegate.swift in Sources */,
+				F493902C2CF1076D00D963EB /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
