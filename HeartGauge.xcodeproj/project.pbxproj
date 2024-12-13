@@ -20,6 +20,7 @@
 		F49390212CF0FFD700D963EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49390202CF0FFD700D963EB /* Assets.xcassets */; };
 		F49390242CF0FFD700D963EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49390222CF0FFD700D963EB /* LaunchScreen.storyboard */; };
 		F493902C2CF1076D00D963EB /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F493902B2CF1076D00D963EB /* LaunchViewController.swift */; };
+		F4EB75942D0C95E10080CA9E /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB75932D0C95E10080CA9E /* DashboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		F49390232CF0FFD700D963EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49390252CF0FFD700D963EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F493902B2CF1076D00D963EB /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		F4EB75932D0C95E10080CA9E /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				F49390192CF0FFD300D963EB /* SceneDelegate.swift */,
 				F493901B2CF0FFD300D963EB /* ViewController.swift */,
 				F493901D2CF0FFD300D963EB /* Main.storyboard */,
+				F4EB75932D0C95E10080CA9E /* DashboardViewController.swift */,
 				F49390202CF0FFD700D963EB /* Assets.xcassets */,
 				F4574F8D2D0B8EAA007F010F /* GoogleService-Info.plist */,
 				F49390222CF0FFD700D963EB /* LaunchScreen.storyboard */,
@@ -167,6 +170,7 @@
 			files = (
 				F493901C2CF0FFD300D963EB /* ViewController.swift in Sources */,
 				F49390182CF0FFD300D963EB /* AppDelegate.swift in Sources */,
+				F4EB75942D0C95E10080CA9E /* DashboardViewController.swift in Sources */,
 				F493901A2CF0FFD300D963EB /* SceneDelegate.swift in Sources */,
 				F493902C2CF1076D00D963EB /* LaunchViewController.swift in Sources */,
 			);
