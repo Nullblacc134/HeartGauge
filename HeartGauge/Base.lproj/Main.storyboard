@@ -93,10 +93,10 @@
             </objects>
             <point key="canvasLocation" x="994.6564885496183" y="-9.1549295774647899"/>
         </scene>
-        <!--View Controller-->
+        <!--Dashboard View Controller-->
         <scene sceneID="dRC-ho-Hlw">
             <objects>
-                <viewController id="I13-Gt-8Zz" sceneMemberID="viewController">
+                <viewController id="I13-Gt-8Zz" customClass="DashboardViewController" customModule="HeartGauge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" alpha="0.90000000000000002" contentMode="scaleToFill" id="t4U-72-AhH">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

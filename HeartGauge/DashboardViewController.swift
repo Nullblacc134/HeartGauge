@@ -11,7 +11,7 @@ class DashboardViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        navigationItem.backBarButtonItem?.isHidden = true
         // Do any additional setup after loading the view.
     }
     
