@@ -48,6 +48,8 @@
 		F4EB75CB2D0CBB060080CA9E /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = F4EB75CA2D0CBB060080CA9E /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		F4EB75CD2D0CBB060080CA9E /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = F4EB75CC2D0CBB060080CA9E /* FirebaseAppCheck */; };
 		F4EB75CF2D0CBB060080CA9E /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F4EB75CE2D0CBB060080CA9E /* FirebaseAppDistribution-Beta */; };
+		F4EB75D22D11FB250080CA9E /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB75D12D11FB250080CA9E /* AuthenticationView.swift */; };
+		F4EB75D42D1202AE0080CA9E /* SignInWithEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB75D32D1202AE0080CA9E /* SignInWithEmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		F49390252CF0FFD700D963EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F493902B2CF1076D00D963EB /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		F4EB75932D0C95E10080CA9E /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		F4EB75D12D11FB250080CA9E /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		F4EB75D32D1202AE0080CA9E /* SignInWithEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithEmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 				F49390172CF0FFD300D963EB /* AppDelegate.swift */,
 				F49390192CF0FFD300D963EB /* SceneDelegate.swift */,
 				F493901B2CF0FFD300D963EB /* ViewController.swift */,
+				F4EB75D02D11FAB10080CA9E /* Authentication  */,
 				F493901D2CF0FFD300D963EB /* Main.storyboard */,
 				F4EB75932D0C95E10080CA9E /* DashboardViewController.swift */,
 				F49390202CF0FFD700D963EB /* Assets.xcassets */,
@@ -146,6 +151,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4EB75D02D11FAB10080CA9E /* Authentication  */ = {
+			isa = PBXGroup;
+			children = (
+				F4EB75D12D11FB250080CA9E /* AuthenticationView.swift */,
+				F4EB75D32D1202AE0080CA9E /* SignInWithEmailView.swift */,
+			);
+			path = "Authentication ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +273,9 @@
 			files = (
 				F493901C2CF0FFD300D963EB /* ViewController.swift in Sources */,
 				F49390182CF0FFD300D963EB /* AppDelegate.swift in Sources */,
+				F4EB75D22D11FB250080CA9E /* AuthenticationView.swift in Sources */,
 				F4EB75942D0C95E10080CA9E /* DashboardViewController.swift in Sources */,
+				F4EB75D42D1202AE0080CA9E /* SignInWithEmailView.swift in Sources */,
 				F493901A2CF0FFD300D963EB /* SceneDelegate.swift in Sources */,
 				F493902C2CF1076D00D963EB /* LaunchViewController.swift in Sources */,
 			);
